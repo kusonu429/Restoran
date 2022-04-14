@@ -82,7 +82,10 @@ $grey: #6f6f70;
        flex-direction: column;
        justify-content: center;
        align-items: center;
-          
+       position: relative;
+       top: 100px;
+     
+
         h2{
             font-size: 4.2rem;
             color: $white;  
