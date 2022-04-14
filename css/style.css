@@ -338,10 +338,15 @@ header .banners .text summary .b-a-t {
   border-radius: 2px;
 }
 
+header .banners .round-img figure {
+  overflow: hidden;
+}
+
 header .banners .round-img figure img {
   width: 100%;
-  -webkit-animation: hero 20s linear    infinite;
-          animation: hero 20s linear    infinite;
+  -webkit-animation: hero 20s linear infinite;
+          animation: hero 20s linear infinite;
+  border-radius: 100%;
 }
 
 @-webkit-keyframes hero {
@@ -1750,7 +1755,6 @@ footer .footer-center .copyrights .right-menu ul li:first-child {
 @media only screen and (max-width: 576px) {
   header .banners {
     width: 90%;
-    border: 1px solid orange;
   }
   header .banners .text summary h1 {
     line-height: 60px;

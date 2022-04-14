@@ -158,6 +158,7 @@ header{
     position: relative;
     top: 150px;
 
+
     .box {
       width: 48.5%;
     }
@@ -189,9 +190,14 @@ header{
 
     .round-img {
       figure {
+       
+        overflow: hidden;
+     
         img {
           width: 100%;
-          animation: hero 20s linear    infinite;
+          animation: hero 20s linear infinite;
+          border-radius: 100%;
+          
         }
 
         @keyframes hero {
