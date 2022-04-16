@@ -195,7 +195,7 @@ header{
      
         img {
           width: 100%;
-          animation: hero 20s linear infinite;
+          animation: hero 20s linear infinite ;
           border-radius: 100%;
           
         }
@@ -206,7 +206,7 @@ header{
           }
 
           100% {
-            transform: rotate(180deg);
+            transform: rotate(360deg);
           }
         }
       }
